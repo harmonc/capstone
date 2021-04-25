@@ -7,7 +7,7 @@
 
   </head>
   <body>
-    <a href="index.html" class="button">Back</a>
+    <a href="index.html" class="back">Back</a>
       <h1>Faculty Submission Form</h1>
       <form action="test.php">
           <label for="fname">First name:</label><br>
