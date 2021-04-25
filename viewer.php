@@ -17,16 +17,16 @@ echo "<table><thead>
 <th>First Name</th>
 <th>Last Name</th>
 <th>Email</th>
-</tr></thead><tbody><tr>";
+</tr></thead><tbody>";
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<th>". $row["firstname"]."</th><th>".$row["lastname"]."</th><th>".$row["email"]."</th>";
+    echo "<tr><th>". $row["firstname"]."</th><th>".$row["lastname"]."</th><th>".$row["email"]."</th></tr>";
   }
 } else {
   echo "0 results";
 }
-echo "</tr></tbody></table>";
+echo "</tbody></table>";
 $conn->close();
 ?>
 </body>
