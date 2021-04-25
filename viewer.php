@@ -7,7 +7,7 @@
 <body>
       <a href="index.html" class="back">Back</a>
 <h1>Hours</h1>
-<?php>
+<?php
 require_once "config.php";
 $sql = "SELECT firstname, lastname, email FROM Names";
 $result = $conn->query($sql);
