@@ -7,6 +7,7 @@
 
   </head>
   <body>
+    <href a="index.html">Back</href>
       <h1>Faculty Submission Form</h1>
       <form action="test.php">
           <label for="fname">First name:</label><br>
