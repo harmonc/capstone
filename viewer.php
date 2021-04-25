@@ -11,7 +11,7 @@ require_once "config.php";
   <body>
     <a href="index.html" class="back">Back</a>
     <h1>Hours</h1>
-
+    print_r("test")
     $sql = "SELECT firstname, lastname, email FROM Names";
     $result = $conn->query($sql);
 
