@@ -6,7 +6,7 @@
 </head>
 <body>
       <a href="index.html" class="back">Back</a>
-<h1>Hours</h>
+<h1>Hours</h1>
 <?php>
 require_once "config.php";
 $sql = "SELECT firstname, lastname, email FROM Names";
