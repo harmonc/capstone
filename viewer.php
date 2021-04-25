@@ -12,14 +12,21 @@ require_once "config.php";
 $sql = "SELECT firstname, lastname, email FROM Names";
 $result = $conn->query($sql);
 
+echo "<table><thead>
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Email</th>
+</tr></thead><tbody><tr>";
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "email: " . $row["email"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+    echo "<th>". $row["firstname"]."</th><th>".$row["lastname"]."</th><th>".$row["email"]."</th>";
   }
 } else {
   echo "0 results";
 }
+echo "</tr></tbody></table>";
 $conn->close();
 ?>
 </body>
