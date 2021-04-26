@@ -15,12 +15,8 @@
           <input type="text" id="lname" name="lname"><br>
           <label for="studentID">Student ID:</label><br>
           <input type="text" id="studentID" name="studentID"><br>
-          <label for="box">OBU Box:</label><br>
-          <input type="text" id="box" name="box"><br>
-          <label for="phone">Phone:</label><br>
-          <input type="text" id="phone" name="phone"><br>
-          <label for="email">Email:</label><br>
-          <input type="text" id="email" name="email"><br>
+          <label for="box">Hours:</label><br>
+          <input type="text" id="hours" name="hours"><br>
           <label for="class">Classification:</label><br>
           <select name="cars" id="cars">
               <option value="freshman">Freshman</option>
