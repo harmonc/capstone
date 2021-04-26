@@ -1,5 +1,5 @@
 <?php
-require_once "config.php";
+require_once "../config.php";
 
 $sql = "INSERT INTO student_hours (FName, LName, StudentID, TotalHours, classification)
 VALUES ('".$_GET["fname"]."','".$_GET["lname"]."',".$_GET["studentID"].",".$_GET["hours"].",'".$_GET["class"]."')";
