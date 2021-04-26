@@ -24,14 +24,9 @@
               <option value="jr">Junior</option>
               <option value="sr">Senior</option>
           </select><br>
-          <label for="date">Semester and Year you're registering for:</label><br>
-          <input type="text" id="date" name="date">
+          <!-- <label for="date">Semester and Year you're registering for:</label><br> -->
+          <!-- <input type="text" id="date" name="date"> -->
           <input type="submit" value="Submit">
         </form>
-      <?php
-$txt = "PHP";
-echo "I love $txt!";
-?>
-
   </body>
 </html>
