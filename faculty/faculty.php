@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <meta charset="utf-8" />
     <title>Faculty Form</title>
   </head>
-  
+
   <body>
-    <a href="index.html" class="back">Back</a>
+    <a href="../index.html" class="back">Back</a>
       <h1>Faculty Submission Form</h1>
-      <form action="test.php">
+      <form action="faculty_entry.php">
           <label for="fname">First name:</label><br>
           <input type="text" id="fname" name="fname"><br>
           <label for="lname">Last name:</label><br>
           <input type="text" id="lname" name="lname"><br>
           <label for="phone">Hours Served:</label><br>
           <input type="text" id="hours" name="hours"><br>
-          <label for="email">Organiztion:</label><br>
-          <input type="text" id="organization" name="org"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br>
           <label for="class">School:</label><br>
-          <select name="cars" id="cars">
+          <select name="school" id="school">
               <option value="natsci">Natural Sciences</option>
               <option value="socsci">Social Sciences</option>
               <option value="ed">Education</option>
