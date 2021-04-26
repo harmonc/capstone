@@ -12,7 +12,7 @@
 require_once "../config.php";
 
 $sql = "INSERT INTO student_hours (FName, LName, facult_email, total_hours)
-VALUES ('".$_GET["fname"]."','".$_GET["lname"]."',".$_GET["email"].",".$_GET["hours"].")";
+VALUES ('".$_GET["fname"]."','".$_GET["lname"]."','".$_GET["email"]."',".$_GET["hours"].")";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
