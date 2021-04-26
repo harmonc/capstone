@@ -18,11 +18,11 @@
           <label for="box">Hours:</label><br>
           <input type="text" id="hours" name="hours"><br>
           <label for="class">Classification:</label><br>
-          <select name="cars" id="cars">
-              <option value="freshman">Freshman</option>
-              <option value="sophomore">Sophmore</option>
-              <option value="junior">Junior</option>
-              <option value="senior">Senior</option>
+          <select name="class" id="class">
+              <option value="fr">Freshman</option>
+              <option value="sp">Sophmore</option>
+              <option value="jr">Junior</option>
+              <option value="sr">Senior</option>
           </select><br>
           <label for="date">Semester and Year you're registering for:</label><br>
           <input type="text" id="date" name="date">
