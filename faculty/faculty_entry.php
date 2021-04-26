@@ -3,10 +3,10 @@
   <head>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <meta charset="utf-8" />
-    <title>Student Form</title>
+    <title>Faculty Submission</title>
   </head>
   <body>
-    <a href="student.php" class = "back">Back</a>
+    <a href="faculty.php" class = "back">Back</a>
 
 <?php
 require_once "../config.php";
