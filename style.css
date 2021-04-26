@@ -3,13 +3,17 @@ body{
 }
 
 .back {
-  font: bold 1em Arial;
+  font: bold 2xem Arial;
   padding:.2em;
   margin: .2em;
 }
 
+h1{
+  font-size: 3em;
+}
+
 .button {
-  font: bold 2em Arial;
+  font: bold 3em Arial;
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;

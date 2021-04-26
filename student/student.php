@@ -6,9 +6,9 @@
     <title>Student Form</title>
   </head>
   <body>
-    <a href="index.html" class = "back">Back</a>
+    <a href="./index.html" class = "back">Back</a>
       <h1>Transerve Application Form</h1>
-      <form action="test.php">
+      <form action="student_entry.php">
           <label for="fname">First name:</label><br>
           <input type="text" id="fname" name="fname"><br>
           <label for="lname">Last name:</label><br>
