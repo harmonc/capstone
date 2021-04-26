@@ -9,19 +9,22 @@
 <h1>Hours</h1>
 <?php
 require_once "config.php";
-$sql = "SELECT firstname, lastname, email FROM Names";
+$sql = "SELECT FName, LName, StudentID, TotalHours, classification FROM student_hours";
 $result = $conn->query($sql);
 
 echo "<table><thead>
 <tr>
 <th>First Name</th>
 <th>Last Name</th>
-<th>Email</th>
+<th>ID</th>
+<th>Total Hours</th>
+<th>Classification</th>
 </tr></thead><tbody>";
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<tr><th>". $row["firstname"]."</th><th>".$row["lastname"]."</th><th>".$row["email"]."</th></tr>";
+    echo "<tr><th>". $row["FName"]."</th><th>".$row["LName"]."</th><th>".$row["StudentID"]."</th><th>".$row["TotalHours"]."</th><th>".
+    $row["classification"]."</th></tr>";
   }
 } else {
   echo "0 results";
