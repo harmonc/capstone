@@ -20,7 +20,7 @@
           <label for="class">Classification:</label><br>
           <select name="class" id="class">
               <option value="fr">Freshman</option>
-              <option value="sp">Sophmore</option>
+              <option value="sp">Sophomore</option>
               <option value="jr">Junior</option>
               <option value="sr">Senior</option>
           </select><br>
