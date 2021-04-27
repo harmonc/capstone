@@ -1,3 +1,23 @@
 body{
     text-align: center;
 }
+
+.back {
+  font: bold 2xem Arial;
+  padding:.2em;
+  margin: .2em;
+  background-color: #EEEEEE;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.button {
+  font: bold 3em Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 1em;
+  margin: 1em;
+}
